@@ -10,6 +10,9 @@ body {
     margin: 0;
     padding: 0;
     background: var(--primary-gradient);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 header {
@@ -83,3 +86,17 @@ h1, h2, h3 {
         flex-direction: column;
     }
 }
+
+.sticky-footer {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+iframe {
+    height: 80vh; /* Adjust this value as needed */
+}
+
+main {
+    flex: 1 0 auto;
+}
+
