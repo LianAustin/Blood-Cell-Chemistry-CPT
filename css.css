@@ -93,9 +93,13 @@ h1, h2, h3 {
 }
 
 iframe {
-    height: 80vh; /* Adjust this value as needed */
+    height: 80vh;
 }
 
 main {
     flex: 1 0 auto;
+}
+
+.nav-link {
+    color: #ec3a12;
 }
